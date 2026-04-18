@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Native splash shown during process start, before Flutter draws its first
+  frame. Violet background + centered book silhouette keeps the launch
+  continuous with the Material3 theme inside the app.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background" />
+    <item
+        android:drawable="@drawable/splash_book"
+        android:gravity="center" />
+</layer-list>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Larger book silhouette used on the native splash. Same geometry as the
+  launcher foreground, re-centered in a 160dp canvas so the content fills
+  the frame rather than sitting in an adaptive-icon safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,26 L54,26 L54,82 L18,82 Z" />
+
+    <!-- Right page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26 L90,26 L90,82 L54,82 Z" />
+
+    <!-- Spine -->
+    <path
+        android:fillColor="#C4B5FD"
+        android:pathData="M53,26 L55,26 L55,82 L53,82 Z" />
+
+    <!-- Left page text lines -->
+    <path
+        android:fillColor="#6D28D9"
+        android:pathData="M24,38 L48,38 L48,40.5 L24,40.5 Z
+                          M24,46 L48,46 L48,48.5 L24,48.5 Z
+                          M24,54 L42,54 L42,56.5 L24,56.5 Z
+                          M24,62 L46,62 L46,64.5 L24,64.5 Z
+                          M24,70 L44,70 L44,72.5 L24,72.5 Z" />
+
+    <!-- Right page text lines -->
+    <path
+        android:fillColor="#6D28D9"
+        android:pathData="M60,38 L84,38 L84,40.5 L60,40.5 Z
+                          M60,46 L84,46 L84,48.5 L60,48.5 Z
+                          M60,54 L78,54 L78,56.5 L60,56.5 Z
+                          M60,62 L82,62 L82,64.5 L60,64.5 Z
+                          M60,70 L80,70 L80,72.5 L60,72.5 Z" />
+</vector>
